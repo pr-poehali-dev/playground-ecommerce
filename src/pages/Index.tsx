@@ -149,11 +149,11 @@ export default function Index() {
                 О нас
               </button>
               <a 
-                href="tel:88005553535"
+                href="tel:89185636222"
                 className="font-bold text-foreground hover:text-primary transition-colors flex items-center gap-2"
               >
                 <Icon name="Phone" size={18} />
-                8 (800) 555-35-35
+                8 (918) 563-62-22
               </a>
             </nav>
 
@@ -184,11 +184,11 @@ export default function Index() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:88005553535"
+                href="tel:89185636222"
                 className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg h-14 px-8 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
               >
                 <Icon name="Phone" size={24} />
-                8 (800) 555-35-35
+                8 (918) 563-62-22
               </a>
               <button className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-bold text-lg h-14 px-8 rounded-full transition-all hover:scale-105">
                 <Icon name="MessageCircle" size={24} />
@@ -211,7 +211,7 @@ export default function Index() {
             <div>
               <h4 className="font-bold mb-4">Контакты</h4>
               <div className="space-y-2 text-background/80">
-                <p>📞 8 (800) 555-35-35</p>
+                <p>📞 8 (918) 563-62-22</p>
                 <p>📧 info@kidsplay.ru</p>
                 <p>📍 Москва, ул. Детская, 1</p>
               </div>
