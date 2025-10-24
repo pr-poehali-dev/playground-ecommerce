@@ -25,10 +25,7 @@ export default function Catalog() {
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-16 px-12 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
-            >
-              <Icon name="Download" size={28} className="mr-3" />
-              Скачать каталог
-            </Button>
+            >Посмотреть каталог</Button>
             
             <p className="text-sm text-muted-foreground mt-6">
               PDF файл, 5 МБ
