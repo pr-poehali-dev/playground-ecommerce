@@ -76,7 +76,7 @@ export default function Index() {
               <div className="text-4xl">🎡</div>
               <div>
                 <h1 className="font-heading text-2xl text-primary">
-                  КидсПлей
+                  РОСТКОМ
                 </h1>
                 <p className="text-xs text-muted-foreground">Детские площадки</p>
               </div>
@@ -147,7 +147,7 @@ export default function Index() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-heading text-2xl mb-4 text-primary">КидсПлей</h3>
+              <h3 className="font-heading text-2xl mb-4 text-primary">РОСТКОМ</h3>
               <p className="text-background/80">
                 Создаём радость и веселье для ваших детей с 2010 года
               </p>
@@ -170,7 +170,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-background/20 pt-6 text-center text-background/60">
-            <p>© 2024 КидсПлей. Все права защищены.</p>
+            <p>© 2024 РОСТКОМ. Все права защищены.</p>
           </div>
         </div>
       </footer>
