@@ -5,67 +5,11 @@ import Catalog from '@/components/Catalog';
 import Cart from '@/components/Cart';
 import type { Product } from '@/components/ProductCard';
 import Icon from '@/components/ui/icon';
+import { PRODUCTS } from '@/data/products';
 
 interface CartItem extends Product {
   quantity: number;
 }
-
-const PRODUCTS: Product[] = [
-  {
-    id: 1,
-    name: 'Радужный комплекс',
-    price: 189000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/5c2a54fa-20bc-4141-a9ee-847f5e778e1d.jpg',
-    description: 'Яркая площадка с горкой, качелями и скалодромом. Идеально для активных игр!',
-    ageRange: '3-12 лет',
-    isNew: true,
-  },
-  {
-    id: 2,
-    name: 'Деревянная крепость',
-    price: 245000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/85e7f178-2d3d-470f-b50e-07aaeb0b5a88.jpg',
-    description: 'Экологичный комплекс из натурального дерева с башней и мостом.',
-    ageRange: '5-14 лет',
-    discount: 15,
-  },
-  {
-    id: 3,
-    name: 'Малышкина радость',
-    price: 95000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/daa57e4a-ed52-424c-88df-80e77e7f0365.jpg',
-    description: 'Компактная и безопасная площадка для самых маленьких.',
-    ageRange: '1-5 лет',
-    isNew: true,
-    discount: 10,
-  },
-  {
-    id: 4,
-    name: 'Спортивный городок',
-    price: 320000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/5c2a54fa-20bc-4141-a9ee-847f5e778e1d.jpg',
-    description: 'Большой комплекс с турниками, кольцами и рукоходом.',
-    ageRange: '7-16 лет',
-  },
-  {
-    id: 5,
-    name: 'Пиратский корабль',
-    price: 275000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/85e7f178-2d3d-470f-b50e-07aaeb0b5a88.jpg',
-    description: 'Тематическая площадка в виде корабля с штурвалом и мачтой.',
-    ageRange: '4-12 лет',
-    isNew: true,
-  },
-  {
-    id: 6,
-    name: 'Сказочный замок',
-    price: 195000,
-    image: 'https://cdn.poehali.dev/projects/ad1bb642-8bb8-4b12-8c56-6e374b92446f/files/daa57e4a-ed52-424c-88df-80e77e7f0365.jpg',
-    description: 'Волшебный комплекс с башенками и секретными проходами.',
-    ageRange: '3-10 лет',
-    discount: 20,
-  },
-];
 
 export default function Index() {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
