@@ -115,7 +115,7 @@ export default function Index() {
         <Hero onScrollToCatalog={scrollToCatalog} />
         
         <div ref={catalogRef}>
-          <Catalog products={PRODUCTS} onAddToCart={handleAddToCart} />
+          <Catalog />
         </div>
 
         <section className="bg-gradient-to-br from-primary/10 to-secondary/20 py-16 px-4">
