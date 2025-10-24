@@ -148,10 +148,13 @@ export default function Index() {
               <button className="font-bold text-foreground hover:text-primary transition-colors">
                 О нас
               </button>
-              <button className="font-bold text-foreground hover:text-primary transition-colors flex items-center gap-2">
+              <a 
+                href="tel:88005553535"
+                className="font-bold text-foreground hover:text-primary transition-colors flex items-center gap-2"
+              >
                 <Icon name="Phone" size={18} />
                 8 (800) 555-35-35
-              </button>
+              </a>
             </nav>
 
             <Cart
