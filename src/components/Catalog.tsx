@@ -25,7 +25,18 @@ export default function Catalog() {
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-16 px-12 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
-            >Посмотреть каталог</Button>
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = 'https://cdn.poehali.dev/files/7f446190-8757-44d1-8d8d-08bd727895de.png';
+                link.download = 'Детские площадки 2025.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+            >
+              <Icon name="Download" size={28} className="mr-3" />
+              Посмотреть каталог
+            </Button>
             
             <p className="text-sm text-muted-foreground mt-6">
               PDF файл, 5 МБ
